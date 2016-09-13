@@ -1,1 +1,74 @@
-{}
+[
+  {
+    "name": "Deep Insights",
+    "link": "http://github.com/cartodb/deep-insights.js",
+    "image": "",
+    "description": "A powerful javascript library to generate statistical dashboards and autostyling for your maps"
+  },
+  {
+    "name": "d3.cartodb",
+    "link": "http://github.com/cartodb/d3.cartodb",
+    "image": "",
+    "description": "Carto's vector rendering library, using D3 to paint data visualisations with svg, no webgl needed!"
+  },
+  {
+    "name": "Marginotes",
+    "link": "http://github.com/fdansv/marginotes",
+    "image": "",
+    "description": "Marginotes takes your jQuery selection and adds notes to the margin with the text provided in HTML attributes"
+  },
+  {
+    "name": "Termimap",
+    "link": "http://github.com/fdansv/termimap",
+    "image": "",
+    "description": "Termimap is a terminal-based maps viewer with its own GeoJSON renderer"
+  },
+  {
+    "name": "Torque.js",
+    "link": "https://carto.com/torque/",
+    "image": "",
+    "description": "Torque is Carto's rendering engine for animated maps"
+  },
+  {
+    "name": "Help me I'm lost",
+    "link": "https://github.com/fdansv/hil",
+    "image": "",
+    "description": "Help Me I'm Lost (HIL) is a sort of map server that generates super-barebones png tiles so that I can work offline with basemaps."
+  },
+  {
+    "name": "Torque Heatmaps",
+    "link": "",
+    "image": "",
+    "description": "My first project in Carto was adding a heatmap renderer to the Torque.js project"
+  },
+  {
+    "name": "Pelias",
+    "link": "https://mapzen.com/products/search/",
+    "image": "",
+    "description": "During the summer of 2014 I spent some months contributing to the result relevance of Mapzen's open source geosearch engine"
+  },
+  {
+    "name": "Mapbox Android SDK",
+    "link": "https://www.mapbox.com/blog/mapbox-android/",
+    "image": "",
+    "description": "Mapbox hired me in 2013 to build the foundations of their Mobile SDK for Android and introduce the Mapbox platform to the Android community"
+  },
+  {
+    "name": "The building is...",
+    "link": "",
+    "image": "",
+    "description": "One of my first projects as a developer was going onsite to La Gaie Lyrique in Paris and for two weeks make a building sentient, using Processing and Arduino"
+  },
+  {
+    "name": "Forgotten Routes",
+    "link": "https://www.flickr.com/photos/fdansv/9134559860/in/photolist-eVc1po-eBxxmL",
+    "image": "",
+    "description": "The main outcome of my final degree project was a map that linked all the abandoned railways in Britain"
+  },
+  {
+    "name": "The Twisted London Underground Map",
+    "link": "",
+    "image": "",
+    "description": "A topological, but not geographical, representation of the London Underground. It kinda looks like spaghetti."
+  },
+]
