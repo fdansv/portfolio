@@ -18,6 +18,28 @@
   font-size: large;
 }
 
+.PortfolioItem {
+  background-color: darkgray;
+  height: 300px;
+  margin-top: 2px;
+  margin-bottom: 2px; 
+}
+
+.PortfolioItem-title {
+  line-height: 300px;
+  vertical-align: middle;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'EB Garamond';
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 33px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

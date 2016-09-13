@@ -2,7 +2,7 @@
   {
     "name": "Deep Insights",
     "link": "http://github.com/cartodb/deep-insights.js",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/fdansv/portfolio/gh-pages/images/di1.gif",
     "description": "A powerful javascript library to generate statistical dashboards and autostyling for your maps"
   },
   {
@@ -70,5 +70,5 @@
     "link": "",
     "image": "",
     "description": "A topological, but not geographical, representation of the London Underground. It kinda looks like spaghetti."
-  },
+  }
 ]

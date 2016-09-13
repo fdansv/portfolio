@@ -1,21 +1,36 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import portfolio from '../portfolio.json'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        {portfolio.map(function (item) {
+          return <PortfolioItem {...item}/>
+        })}
       </div>
     );
   }
+}
+
+function PortfolioItem (props) {
+  var style = {
+    backgroundImage: 'url(' + props.image + ')'
+  }
+  return (
+    <div style={style} className="PortfolioItem container">
+      <Title name={props.name}/>
+    </div>
+  )
+}
+
+
+function Title (props) {
+  return (
+    <h2 className='PortfolioItem-title'>{props.name}</h2> 
+  )
 }
 
 export default App;
